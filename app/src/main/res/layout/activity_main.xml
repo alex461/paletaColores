@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btprueba1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="compra1"
+        android:onClick="onClick"
+        android:background="@color/colorbotones"
+
+        />
+
+    <Button
+        android:id="@+id/btprueba2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="compra2"
+        android:onClick="onClick"
+        android:background="@color/colorbotones"
+        />
+
+    <Button
+        android:id="@+id/btprueba3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="compra2"
+        android:onClick="onClick"
+        android:background="@color/colorbotones"
+        />
+
+
+
+    <Button
+        android:id="@+id/botonGeneral"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="color"
+        android:onClick="onClick"
+        android:longClickable="true"
+        />
+
+</LinearLayout>
